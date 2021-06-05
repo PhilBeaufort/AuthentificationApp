@@ -2,19 +2,20 @@
 
 .gitignore to ignore file to commit git
 
-## Dépendances
+## Dependancies
  - express
  - ejs
  - express-session
  - express-flash
+ - nodemon
  - dotenv
  - passport
+ - passport-local
  - method-override
 
-## Commandes
+## Commands
 	
-| Commande | Fonction |
-|:-----------------:|:--------------:|
-| npm init | initialisation Node |
-| npm i | install dependencies |
-| npm i --save-dev nodemon dotenv|  automatisation|
+Commands to run
+1. npm i express ejs bcrypt passport passport-local express-flash express-session method-override 
+2. npm i --save-dev nodemon dotenv
+3. npm run devStart
